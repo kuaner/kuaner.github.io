@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Minimal</title>
+    <link>http://example.com/</link>
+    <description>Recent content on Minimal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Sep 2017 19:17:22 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ffmpeg自动安装脚本</title>
+      <link>http://example.com/posts/my-first-post/</link>
+      <pubDate>Fri, 15 Sep 2017 19:17:22 +0800</pubDate>
+      
+      <guid>http://example.com/posts/my-first-post/</guid>
+      <description> ffmpeg自动安装脚本，执行即  #!/bin/bash VER=curl https://johnvansickle.com/ffmpeg/ | grep &#39;release:&#39; |awk &#39;{print $2}&#39; curl -O https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-64bit-static.tar.xz tar -xvjf ffmpeg-release-64bit-static.tar.xz cp ./ffmpeg-${VER}-64bit-static/ffmpeg-10bit /usr/bin/ cp ./ffmpeg-${VER}-64bit-static/ffserver /usr/bin/ cp ./ffmpeg-${VER}-64bit-static/qt-faststart /usr/bin/ cp ./ffmpeg-${VER}-64bit-static/ffmpeg /usr/bin/ cp ./ffmpeg-${VER}-64bit-static/ffprobe /usr/bin/ rm -rf ffmpeg-${VER}-64bit-static rm -rf ffmpeg-release-64bit-static.tar.xz  </description>
+    </item>
+    
+  </channel>
+</rss>
